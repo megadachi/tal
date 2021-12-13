@@ -19,4 +19,8 @@ def myFonction(csvFile, prefix):
                 myList.append(word)
     print(myList)
 
-myFonction("country_list.csv", 'a')
+def main():
+    myFonction("country_list.csv", 'a')
+
+if __name__ == "__main__":
+    main()

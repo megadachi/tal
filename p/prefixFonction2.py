@@ -16,4 +16,9 @@ def myFonction(csvFile, prefix):
             if match(prefix, word, IGNORECASE)!= None:
                 print(word, end=", ")
 
-myFonction("country_list.csv", 'a')
+def main():
+
+    myFonction("country_list.csv", 'a')
+
+if __name__ == "__main__":
+    main()
